@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://auth-backend2-p7hn.onrender.com/";
+const API = "http://localhost:5000/";
 
 export const signup = async (name, email, password, age, location, position, department) => {
     try {
